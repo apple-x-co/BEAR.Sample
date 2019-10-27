@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "greeting": {
+      "type": "string",
+      "maxLength": 20,
+      "pattern": "[a-z\\d~+-]+"
+    }
+  },
+  "required": ["greeting"]
+}
